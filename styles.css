@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BI;
+    src: url(fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Lora-Italic;
+    src: url(fonts/Lora-Italic.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+nav {
+    height: 155px;
+    width: 1805px;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .links {
+
+}
+
+nav .links a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 51px;
+    color: #000;
+    font-family: Roboto-Light;
+}
+
+nav .links a.active {
+    color: #EF767A;
+    font-family: Roboto-BI;
+}
+
+nav .logo  {
+}
+
+nav .logo span {
+    font-size: 30px;
+    color: #EF767A;
+    font-family: Roboto-Bold;
+}
+
+.hero {
+    width: 1805px;
+    height: 330px;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: blue; */
+}
+
+.content {
+    width: 1805px;
+    min-height: 300px;
+    /* background-color: lightgrey; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentCenter {
+    width: 50%;
+    min-height: 250px;
+    padding-top: 146px;
+    padding-bottom: 146px;
+    /* background-color: lightgreen;  */
+}
+
+.ownerProduct {
+    width: 814px;
+    min-height: 300px;
+    /* background-color: aqua; */
+    margin: 0 auto 30px auto;
+    display: flex;
+}
+
+.ownerProduct .left {
+    width: 224px;
+    /* background-color: bisque; */
+}
+
+.ownerProduct .left .picture {
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.owner {
+    background-image: url(../images/owner.jpg); 
+}
+
+.coowner {
+    background-image: url(../images/co-owner.png);
+}
+
+.butterAlmond {
+    background-image: url(../images/butter-almond-soap.jpg);
+}
+
+.roseGold {
+    background-image: url(../images/rose-gold-soap.jpg);
+}
+
+.luxury {
+    background-image: url(../images/luxury-soap.jpg);
+}
+
+.ownerProduct .right {
+    padding-left: 80px;
+    width: 590px;
+    /* background-color: azure; */
+}
+
+.ownerProduct .right h4 {
+    padding-top: 87px;
+    color: #EF767A;
+    font-size: 30px;
+    font-family: Roboto-BI;
+}
+
+.ownerProduct .right p {
+    color: #000;
+    font-size: 18px;
+    font-family: Lora-Italic;
+}
+
+.textContainer {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.textLeft {
+    width: 513px;
+    color: #000;
+    font-family: Lora-Italic;
+    padding: 136px 0;
+}
+
+.textRight {
+    width: 513px;
+    color: #000;
+    font-family: Lora-Italic;
+}
+
+form {
+    margin-top: 162px;
+}
+
+.textInputs {
+    margin-bottom: 87px;
+}
+
+.textInputs label, input {
+    display: block;
+}
+
+.textInputs label {
+    margin-bottom: 29px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #000;
+}
+
+.textInputs label span {
+    color: #EF767A;
+}
+
+.textInputs input {
+    height: 81px;
+    width: 1014px;
+    border: solid 3px #EF767A;
+    padding: 0 20px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.submitButton   {
+    margin-top: 3px;
+    margin-bottom: 165px;
+}
+
+.subBtn {
+    width: 246px;
+    height: 76px;
+    color: #fff;
+    padding: 20px 40px;
+    background-color: #EF767A;
+    border-style: none;
+    border-radius: 38px;
+    margin: 0 auto;
+    font-family: Roboto-Light;
+    font-size: 30px;
+}
+
+.sideways {
+    width: 106px;
+    height: 603px;
+    /* background-color: lightseagreen; */
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.sideways div {
+    transform: rotate(-90deg);
+    font-family: Roboto-Bold;
+    font-size: 80px;
+    color: #EF767A; opacity: 0.8;
+    margin-left: -110px;
+    letter-spacing: 40px;
+}
+
+.home {
+    margin-top: 390px;
+}
+
+.about {
+    margin-top: 435px;
+}
+
+.products {
+    margin-top: 700px;
+}
+
+.contact {
+    margin-top: 645px;
+}
+
+footer {
+    height: 155px;
+    width: 100%;
+    background-color: #f8f8f8;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 105px
+}
+
+footer .copyright {
+    font-size: 30px;
+    color: #000;
+    font-family: Roboto-Light;
+}
+
+footer .terms {
+    font-size: 30px;
+    color: #000;
+    font-family: Roboto-Light;
+}
